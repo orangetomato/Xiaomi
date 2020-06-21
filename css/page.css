@@ -230,6 +230,7 @@ a {
         color: #666666;
     }
 
+    .menu__link--active,
     .link__contacts--active {
         color: #fd4900;
     }
@@ -343,8 +344,8 @@ a {
 @media (max-width: 767.98px) {
     .home {
         min-height: auto;
-        padding-top: 10vh;
-        padding-bottom: 2vh;
+        padding-top: 100px;
+        padding-bottom: 20px;
     }
 
     .home__video {
@@ -599,7 +600,7 @@ a {
 @media (max-width: 767.98px) {
     .about {
         min-height: auto;
-        padding: 2vh 0;
+        padding: 20px 0;
     }
 
     .about__text-top {
