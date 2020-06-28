@@ -247,7 +247,7 @@ a {
 }
 
 /*=====================Home=====================*/
-.home {
+.page-main__home {
     background-image: url("/assets/images/home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -262,7 +262,7 @@ a {
     align-items: center;
 }
 
-.home::before {
+.page-main__home::before {
     background: rgba(0, 0, 0, .3);
     content: '';
     position: absolute;
@@ -364,7 +364,7 @@ a {
 }
 
 /*=====================Product=====================*/
-.product {
+.page-main__product {
     background-color: #ffffff;
 }
 
@@ -537,7 +537,7 @@ a {
 }
 
 /*=====================About=====================*/
-.about {
+.page-main__about {
     background-image: url("/assets/images/about.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -551,7 +551,7 @@ a {
     align-items: center;
 }
 
-.about::before {
+.page-main__about::before {
     background: rgba(0, 0, 0, .6);
     content: '';
     position: absolute;
@@ -613,7 +613,7 @@ a {
 }
 
 /*=====================Contacts=====================*/
-.contacts {
+.page-main__contacts {
     background-color: #ffffff;
     color: #222222;
     padding: 30px 0;
